@@ -1,4 +1,4 @@
 jdk:
   - openjdk17
 install:
-  - ./gradlew publishToMavenLocal -Psigning.required=false -x signMavenPublication
+  - ./gradlew publishToMavenLocal -PGROUP=com.github.Hamza417.glide -PVERSION_NAME=$JITPACK_VERSION
