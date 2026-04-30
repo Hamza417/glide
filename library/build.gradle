@@ -99,5 +99,3 @@ def classPathForQuality() {
             project.android.libraryVariants.collect { it.javaCompile.classpath }
     )
 }
-
-apply from: "${rootProject.projectDir}/scripts/upload.gradle.kts"
